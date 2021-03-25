@@ -5,9 +5,9 @@
     "license": "MIT",
     "type": "project",
     "require": {
-        "php": ">=5.5.9",
-        "laravel/framework": "5.2.*",
-        "laravel/cashier": "^6.0"
+        "php": "^7.3|^8.0",
+        "laravel/framework": "^8.12",
+        "laravel/cashier": "^12.10"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",

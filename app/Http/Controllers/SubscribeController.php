@@ -56,7 +56,7 @@ class SubscribeController extends Controller
 
         // create the subscription
         try {
-            $user->newSubscription('main', $plan)->create($ccToken, [
+            $user->newSubscription('main', 'price_1IYtBGGPLoCZcYJOWZlVQ534')->create($ccToken, [
                 'email' => $user->email
             ]);
         } catch (\Exception $e) {
